@@ -1,0 +1,27 @@
+TESSERACT(1) Manual Page
+
+NAME
+
+tesseract - command-line OCR engine
+
+SYNOPSIS
+
+tesseract imagenamelstdin outputbaselstdout [options...] [configfile...]
+
+DESCRIPTION
+
+tesseract(1) is a commercial quality OCR engine originally developed at HP between 1985 and 1995. In 1995, this engine
+was among the top 3 evaluated by UNLV. It was open-sourced by HP and UNLV in 2005, and has been developed at
+Google since then.
+
+lN/OUT ARGUMENTS
+
+imagename
+The name of the input image. Most image file formats (anything readable by Leptonica) are supported.
+
+stdin
+Instruction to read data from standard input
+
+outputbase
+The basename of the output file (to which the appropriate extension will be appended). By default the output will be
+named outbase.txt.
